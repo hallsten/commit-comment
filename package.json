@@ -21,11 +21,11 @@
   "homepage": "https://github.com/peter-evans/commit-comment#readme",
   "dependencies": {
     "@actions/core": "1.2.4",
-    "@octokit/request": "5.4.2"
+    "@octokit/request": "5.4.5"
   },
   "devDependencies": {
-    "@zeit/ncc": "0.22.1",
-    "eslint": "6.8.0",
+    "@zeit/ncc": "0.22.3",
+    "eslint": "7.2.0",
     "jest": "26.0.1"
   }
 }
