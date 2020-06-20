@@ -6818,7 +6818,7 @@ async function run() {
       owner: owner,
       repo: repo,
       commit_sha: sha,
-      body: inputs.body,
+      body: eval('`'+inputs.body+'`'),
       path: inputs.path,
       position: inputs.position
     });
